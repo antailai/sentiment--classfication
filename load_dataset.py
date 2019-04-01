@@ -1,7 +1,7 @@
 import os
 import os.path
 
-dataset_path = 'aclImdb/test_dataset'
+dataset_path = '../aclImdb/test_dataset'
 
 
 def load_dataset(path):
