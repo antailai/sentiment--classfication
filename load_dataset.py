@@ -17,8 +17,8 @@ def load_dataset(path):
         return data
 
 
-if __name__ == '__main__':
-    test_data = load_dataset(dataset_path)
-    test_data = test_data.replace('.', '\n')
-    test_data = test_data.replace('<br /><br />', '\n')
-    print(test_data)
+# if __name__ == '__main__':
+#     test_data = load_dataset(dataset_path)
+#     test_data = test_data.replace('.', '\n')
+#     test_data = test_data.replace('<br /><br />', '\n')
+#     print(test_data)
